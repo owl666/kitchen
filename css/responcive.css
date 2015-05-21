@@ -118,7 +118,7 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 	}
 	/* Footer Section */
 	.kc-footer-nav li {
-		padding-left: auto;
+		padding-left: 0;
 	}
 	.kc-footer [class*="ba-width-"] {
 		margin-bottom: 30px;
