@@ -99,7 +99,7 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 		padding: 20px 80px;
 	}
 	.kc-description {
-		padding-bottom: 0;
+		padding-bottom: 50px;
 	}
 	.kc-description .ba-grid + .ba-grid {
 		margin-top: 50px;

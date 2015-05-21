@@ -388,6 +388,12 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 	.ba-width-medium-5-12 {
 		width: 41.667%;
 	}
+	.ba-width-medium-2-5 {
+		width: 40%;
+	}
+	.ba-width-medium-3-5 {
+		width: 60%;
+	}
 }
 
 @media (min-width: 960px) {
