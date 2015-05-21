@@ -123,6 +123,14 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 	.kc-footer [class*="ba-width-"] {
 		margin-bottom: 30px;
 	}
+	.kc-footer .ba-width-medium-3-12 {
+		border-right: none;
+		border-bottom: 1px dotted #979798;
+		text-align: center;
+	}
+	.kc-footer-nav li {
+		text-align: center;
+	}
 	.kc-footer-copywrite {
 		padding-top: 10px;
 	}
