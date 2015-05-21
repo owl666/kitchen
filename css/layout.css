@@ -385,14 +385,45 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 	.ba-width-medium-1-6 {
 		width: 16.66667%;
 	}
-	.ba-width-medium-5-12 {
-		width: 41.667%;
-	}
+
 	.ba-width-medium-2-5 {
 		width: 40%;
 	}
 	.ba-width-medium-3-5 {
 		width: 60%;
+	}
+	.ba-width-medium-1-12 {
+		width: 8.33%
+	}
+	.ba-width-medium-2-12 {
+		width: 16.667%;
+	}
+	.ba-width-medium-3-12 {
+		width: 25%;
+	}
+	.ba-width-medium-4-12 {
+		width: 33.333%;
+	}
+	.ba-width-medium-5-12 {
+		width: 41.667%;
+	}
+	.ba-width-medium-6-12 {
+		width: 50%;
+	}
+	.ba-width-medium-7-12 {
+		width: 58.333%
+	}
+	.ba-width-medium-8-12 {
+		width: 66.667%;
+	}
+	.ba-width-medium-9-12 {
+		width: 75%;
+	}
+	.ba-width-medium-10-12 {
+		width: 83.333%;
+	}
+	.ba-width-medium-11-12 {
+		width: 91.667%;
 	}
 }
 

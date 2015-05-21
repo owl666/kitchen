@@ -41,10 +41,10 @@ equalheight = function(container){
 }
 
 $(window).load(function() {
-    equalheight('.ba-grid .du-item');
+    equalheight('.kc-footer .ba-grid .ba-width-medium-3-12');
 });
 
 
 $(window).resize(function(){
-    equalheight('.ba-grid .du-item');
+    equalheight('.kc-footer .ba-grid .ba-width-medium-3-12');
 });
