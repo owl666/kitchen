@@ -23,27 +23,11 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 }
 @media (max-width: 794px) {
 
-	.kc-description .ba-container {
-		padding: 20px;
-	}
-	.kc-description {
-		padding-bottom: 0;
-	}
-	.kc-feedback .ba-width-medium-5-12:nth-child(2) {
-		float: none;
-		margin-top: 0;
-	}
-	.kc-feedback .ba-width-medium-5-12 {
-		margin-bottom: 0;
-	}
-	.kc-feedback .ba-grid + .ba-grid {
-		margin-top: 10px;
-	}
+	/* Header Section */
 	.kc-logo {
 		width: 60%;
 		margin: auto;
 	}
-
 	.kc-menu-toggle {
 		display: block;
 		margin-left: -20px;
@@ -109,6 +93,30 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 		display: block;
 		transform: translateY(0);
 	}
+
+	/* Description Section */
+	.kc-description .ba-container {
+		padding: 20px 80px;
+	}
+	.kc-description {
+		padding-bottom: 0;
+	}
+	.kc-description .ba-grid + .ba-grid {
+		margin-top: 50px;
+	}
+
+	/* Feedback Section */
+	.kc-feedback .ba-width-medium-5-12:nth-child(2) {
+		float: none;
+		margin-top: 0;
+	}
+	.kc-feedback .ba-width-medium-5-12 {
+		margin-bottom: 0;
+	}
+	.kc-feedback .ba-grid + .ba-grid {
+		margin-top: 10px;
+	}
+
 }
 
 @media (min-width: 768px) {
