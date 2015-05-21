@@ -1,13 +1,16 @@
-/**
- * Created by panda_000 on 16.05.2015.
- */
+
 jQuery(function($){
    $('.kc-menu-toggle, .kc-main-nav-overlay').click(function(){
-      //alert("It's Alive!");
        $('body').toggleClass('kc-main-nav-open');
    });
 });
 
+jQuery(function($){
+    $('.kc-main-nav li a').click(function(){
+        $('.kc-main-nav li a').removeClass('kc-menu-active');
+        $(this).addClass('kc-menu-active');
+    });
+});
 
 equalheight = function(container){
 

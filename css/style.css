@@ -382,8 +382,12 @@ button:hover,
 .kc-footer-contacts {
 	color: #2ECC71;
 }
-.kc-footer i {
+.kc-social a {
 	padding-right: 5px;
+	color: #fff;
+}
+.kc-social a:hover {
+	color: #F39C12;
 }
 .kc-footer .ba-width-medium-3-12 {
 	border-right: 1px dotted #979798;
