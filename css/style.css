@@ -148,6 +148,19 @@ button:hover,
 	text-decoration: none;
 	color: #2ECC71;
 }
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+button:focus,
+.kc-button:focus {
+	outline: none;
+	border-top: 1px solid rgba(46, 204, 113, 0.25);
+}
 
 .ba-container {
 	max-width: 1020px;
@@ -232,7 +245,7 @@ button:hover,
 	top: -115px;
 	bottom: 100%;
 	background: #fff;
-	height: 45vh;
+	height: 45vw;
 	z-index: -10;
 	-ms-transform: skewY(-8deg);
 	-webkit-transform: skewY(-8deg);
@@ -246,7 +259,7 @@ button:hover,
 	right: 0;
 	bottom: -115px;
 	background: #fff;
-	height: 45vh;
+	height: 45vw;
 	z-index: -10;
 	-ms-transform: skewY(8deg);
 	-webkit-transform: skewY(8deg);
@@ -300,7 +313,7 @@ button:hover,
 	right: 0;
 	top: -60px;
 	background: #fff;
-	height: 25vh;
+	height: 25vw;
 	z-index: -10;
 	-ms-transform: skewY(4deg);
 	-webkit-transform: skewY(4deg);
@@ -314,7 +327,7 @@ button:hover,
 	right: 0;
 	bottom: -60px;
 	background: #fff;
-	height: 25vh;
+	height: 25vw;
 	z-index: -10;
 	-ms-transform: skewY(-4deg);
 	-webkit-transform: skewY(-4deg);
@@ -351,6 +364,7 @@ button:hover,
 .kc-comment-author {
 	position: relative;
 	top: -12px;
+	margin-top: 20px;
 }
 .kc-comment-author h5 {
 	font-size: 16px;
@@ -425,6 +439,14 @@ button:hover,
 .kc-footer .kc-footer-form:hover,
 .kc-footer .kc-footer-submit:hover {
 	background-color: transparent;
+	color: #fff;
+	border-radius: 0;
+}
+.kc-footer .kc-footer-form:,
+.kc-footer .kc-footer-submit:focus {
+	background-color: transparent;
+	color: #fff;
+	border-radius: 0;
 }
 .kc-footer-submit {
 	height: 42px;

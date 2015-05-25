@@ -335,7 +335,7 @@ $breakpoint-medium: 768px; // For width more than 768px
 $breakpoint-large: 960px; // For width more than 960px
 $breakpoint-xlarge: 1220px; // For width more than 1220px
 */
-@media (max-width: 480px) {
+@media (min-width: 480px) {
 	.ba-width-small-1-1 {
 		width: 100%;
 	}
